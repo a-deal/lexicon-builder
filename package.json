@@ -1,7 +1,7 @@
 {
-  "name": "self",
+  "name": "lexicon-builder",
   "version": "1.0.0",
-  "description": "The brand of me",
+  "description": "A simple app to bolster your vocab",
   "main": "index.js",
   "scripts": {
     "prestart": "eslint ./ && webpack --config webpack.config.babel.js",
@@ -11,7 +11,7 @@
   "author": "Andrew Deal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/a-deal/self/issues"
+    "url": "https://github.com/a-deal/lexicon-builder/issues"
   },
   "homepage": "https://github.com/a-deal/self#readme",
   "dependencies": {

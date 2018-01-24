@@ -1,11 +1,17 @@
 import React from 'react';
 
+import WordEntry from './components/WordEntry';
+import DefinitionEntry from './components/DefinitionEntry';
+
 class App extends React.Component {
 	render() {
 		return (
-			<h1>This is an App</h1>
+			<div>
+				<WordEntry/>
+				<DefinitionEntry/>
+			</div>
 		);
 	}
 };
 
-export default App; 
+export default App;
